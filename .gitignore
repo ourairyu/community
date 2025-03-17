@@ -4,14 +4,16 @@ sh.exe.stackdump
 *.log
 .env*
 
-# npm
-node_modules
+node_modules/
 package-lock.json
 pnpm-lock.yaml
+yarn.lock
 
 # Hexo sites
 /.knosys/sites/*/source/_data/knosys/
 /.knosys/sites/*/source/knosys/
+/.knosys/sites/*/source/_posts/*
+!/.knosys/sites/*/source/_posts/hello-world.md
 # /.knosys/sites/*/themes/*/layout/*
 # !/.knosys/sites/*/themes/*/layout/_local/
 # /.knosys/sites/*/themes/*/scripts/
