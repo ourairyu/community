@@ -112,14 +112,10 @@ theme_config:
       start: 2024
   header:
     navs:
-      - text: 主站
-        url: https://ourai.ws/
-      - text: 关于
+      - text: 活动
         children:
-          - text: 站长
-            url: https://linxoid.com/ourai/
-          - text: 赞助
-            url: https://ourai.ws/sponsor/
+          - text: 线上分享
+            url: /meetings/
     navbar:
       placement: right
   footer:
@@ -148,20 +144,30 @@ ksio:
       _local/layouts/index:
         values:
           ksio_asset_css:
-            - local/pages/index/style
+            - stylesheets/local/pages/index
+      _local/layouts/meeting:
+        extends: page
     page:
       - scope:
           path: ""
           type: posts
         values:
           ksio_asset_css:
-            - stylesheets/pages/post
+            - stylesheets/local/pages/post
           ksio_asset_js:
             - javascripts/ksio/vendors/jquery.timeago
             - javascripts/ksio/vendors/jquery.timeago.zh-CN
             - javascripts/ksio/initializers/time
             - javascripts/ksio/vendors/jquery.lazyload
             - javascripts/ksio/initializers/lazyload
+      - scope:
+          path: meetings
+          type: knosys
+        values:
+          layout: _local/layouts/meeting
+          banner:
+            url: images/local/banners/teamwork.png
+          image: images/local/banners/teamwork.png
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

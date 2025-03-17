@@ -1,0 +1,7 @@
+<% const meetings = site.data['knosys/meetings'] %>
+<ul>
+  <% meetings.sequence.forEach(id => { %>
+    <% const item = meetings.items[id] %>
+    <li><a href="/meetings/<%= id %>/"><%= item.title %></a></li>
+  <% }) %>
+</ul>
