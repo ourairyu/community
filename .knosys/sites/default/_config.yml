@@ -4,8 +4,8 @@
 
 # Site
 title: 欧雷宇宙
-subtitle: 欧雷的个人社区
-description:
+subtitle: 探索面向未来的生活与工作方式
+description: 欧雷的个人社区，探索面向未来的生活与工作方式。
 keywords: 欧雷,欧雷流,欧雷宇宙,个人社区,社区,超级个体,超级个体宇宙,Ourai Lin,Ourai L.,Ourai,Ourairyu,Ouraiverse
 author: 欧雷
 language: zh-CN
@@ -112,10 +112,14 @@ theme_config:
       start: 2024
   header:
     navs:
-      - text: 活动
+      - text: 资源
         children:
           - text: 线上分享
             url: /meetings/
+      - text: 关于
+        children:
+          - text: 介绍
+            url: /about/
     navbar:
       placement: right
   footer:
