@@ -83,6 +83,16 @@
         margin-bottom: 15px !important;
       }
     }
+
+    &-description span {
+      &:before {
+        content: "「";
+      }
+
+      &:after {
+        content: "」";
+      }
+    }
   }
 
   @media (min-width: $screen-sm-min) {
