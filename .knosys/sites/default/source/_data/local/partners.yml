@@ -1,0 +1,15 @@
+- name: 数字游侠
+  description: 以可持续数字游牧为目标的独立开发者、生命体验者、本地生活家。
+  slug: otopia-digital-ranger
+  website: https://yaol.in
+  banner: otopia-digital-ranger.jpg
+- name: Nop
+  description: 基于可逆计算原理从零开始构建的新一代低代码平台。
+  slug: nop
+  website: https://nop-platform.github.io
+  banner: nop.jpeg
+- name: OpenBuild
+  description: 帮助开发者丝滑从 Web2 过渡到 Web3 的开源社区。
+  slug: openbuild
+  website: https://openbuild.xyz
+  banner: openbuild.jpg

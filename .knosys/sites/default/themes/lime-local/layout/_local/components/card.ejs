@@ -1,0 +1,12 @@
+<div class="Card EntryCard">
+  <a class="Card-link EntryCard-link" href="<%= url %>"<% if (url.startsWith('http')) { %> target="_blank" rel="external nofollow"<% } %>>
+    <div class="EntryCard-header" style="background-image: url('<%= banner %>');">
+      <div class="EntryCard-brief">
+        <h3 class="EntryCard-name" data-toc-skip="true"><%= title %></h3>
+      </div>
+    </div>
+    <div class="EntryCard-body">
+      <div class="EntryCard-description"><%= description %></div>
+    </div>
+  </a>
+</div>

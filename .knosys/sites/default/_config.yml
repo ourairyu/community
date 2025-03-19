@@ -116,10 +116,18 @@ theme_config:
         children:
           - text: 线上分享
             url: /meetings/
+      - text: 生态
+        children:
+          - text: OurAI Labs
+            url: https://labs.ourai.ws
+          - text: 合作伙伴
+            url: /partners/
       - text: 关于
         children:
           - text: 介绍
             url: /about/
+          - text: 成员
+            url: /members/
     navbar:
       placement: right
   footer:

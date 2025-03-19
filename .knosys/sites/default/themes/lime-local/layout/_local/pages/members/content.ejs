@@ -1,0 +1,9 @@
+<% const dataSource = site.data['local/members'] %>
+<p>社区共有 <%= dataSource.total %> 名成员，其中 <%= dataSource.public.length %> 名自主面向大众公开了身份信息：</p>
+<div class="Grid Grid--threeCols is-active">
+  <% dataSource.public.forEach(item => { %>
+    <div class="Grid-item">
+      <%- partial('_local/components/card', { title: item.name, description: item.description, banner: url_for(`images/local/avatars/${item.avatar}`), url: item.homepage }) %>
+    </div>
+  <% }) %>
+</div>

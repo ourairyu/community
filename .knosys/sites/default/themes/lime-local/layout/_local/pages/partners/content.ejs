@@ -1,0 +1,7 @@
+<div class="Grid Grid--threeCols is-active">
+  <% site.data['local/partners'].forEach(item => { %>
+    <div class="Grid-item">
+      <%- partial('_local/components/card', { title: item.name, description: item.description, banner: url_for(`images/local/partners/${item.banner}`), url: item.website }) %>
+    </div>
+  <% }) %>
+</div>
