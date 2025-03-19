@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .Card {
   position: relative;
   overflow: hidden;
@@ -108,7 +109,11 @@
   @media (max-width: 767px) {
     .Hero .Article-title {
       font-size: 52px !important;
-      margin-bottom: 15px !important; } }
+      margin-bottom: 15px !important; }
+    .Hero-description span:before {
+      content: "「"; }
+    .Hero-description span:after {
+      content: "」"; } }
   @media (min-width: 768px) {
     .Hero {
       text-shadow: 3px 3px 8px #000; }
