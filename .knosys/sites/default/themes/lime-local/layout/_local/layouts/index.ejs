@@ -20,7 +20,7 @@
             <li class="col-xs-6 col-md-3 CommunityStatistics-item"><a href="/members/"><span>社区成员</span><span><%= site.data['local/members'].total %></span></a></li>
             <li class="col-xs-6 col-md-3 CommunityStatistics-item"><a href="/partners/"><span>合作伙伴</span><span><%= site.data['local/partners'].length %></span></a></li>
             <li class="col-xs-6 col-md-3 CommunityStatistics-item"><a href="javascript:void(0);"><span>共建项目</span><span>4</span></a></li>
-            <li class="col-xs-6 col-md-3 CommunityStatistics-item"><a href="javascript:void(0);"><span>公共资源</span><span>5</span></a></li>
+            <li class="col-xs-6 col-md-3 CommunityStatistics-item"><a href="javascript:void(0);"><span>公共资源</span><span><%= site.data['local/repos'].length + site.data['knosys/meetings'].sequence.length %></span></a></li>
           </ul>
           <div class="CommunityIntro">
             <p class="CommunityIntro-promo">对「欧雷宇宙」感兴趣？</p>
