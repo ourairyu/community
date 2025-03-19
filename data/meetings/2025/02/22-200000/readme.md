@@ -1,4 +1,4 @@
-本次分享由「[欧雷宇宙](https://c.ourai.ws/)」社区与「[低调务实优秀中国好青年](https://www.yuque.com/yayu/nice-people)」社群联合举办。
+本次分享由「[欧雷宇宙](https://c.ourai.ws/)」社区与[冴羽](https://yayujs.com)的「[低调务实优秀中国好青年](https://www.yuque.com/yayu/nice-people)」社群联合举办。
 
 ## 欧雷宇宙，一场关于「把自己作为平台」的探索实践
 

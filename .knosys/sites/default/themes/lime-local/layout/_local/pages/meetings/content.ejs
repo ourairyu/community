@@ -1,7 +1,9 @@
 <% const meetings = site.data['knosys/meetings'] %>
-<ul>
+<div class="Grid Grid--threeCols is-active">
   <% meetings.sequence.forEach(id => { %>
     <% const item = meetings.items[id] %>
-    <li><a href="/meetings/<%= id %>/"><%= item.title %></a></li>
+    <div class="Grid-item">
+      <%- partial('_local/components/card', { title: item.title, description: item.description, banner: item.banner.url, url: `/meetings/${id}/` }) %>
+    </div>
   <% }) %>
-</ul>
+</div>

@@ -187,7 +187,7 @@ function createGeneratorLegacy(collectionName, dataSourceRoot, localDataDir, loc
             const imageFileName = imageData[k];
 
             if (imageFileName) {
-              const imagePath = getImagePath ? getImagePath(slug, imageFileName) : `/knosys/${imagePathPrefix}/${slug}/${imageFileName}`;
+              const imagePath = getImagePath ? getImagePath(slug, imageFileName, item) : `/knosys/${imagePathPrefix}/${slug}/${imageFileName}`;
 
               if (k === 'banner') {
                 const itemBanner = item.banner;
