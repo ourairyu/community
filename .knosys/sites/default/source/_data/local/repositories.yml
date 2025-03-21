@@ -1,0 +1,35 @@
+free:
+  - title: 欧雷的周报
+    description: 每周一篇所感所思所想。
+    website: https://s.ourai.ws/topics/weekly/
+    banner: repos/weekly.jpg
+  - title: 可持续数字游牧
+    description: 探索可持续的数字游牧生活
+    website: https://s.ourai.ws/topics/digital-nomadism/
+    banner: repos/digital-nomad.jpeg
+  - title: 欧雷的开放生活实验
+    description: Make My Life Open, Work & Build in Public.
+    website: https://a66c4lvoi8.feishu.cn/wiki/space/7359178047188123649
+    banner: partners/otopia-digital-ranger.jpg
+  - title: OpenBuild 共建计划
+    description: Make OpenBuild Great
+    website: https://a66c4lvoi8.feishu.cn/wiki/space/7417754609632198659
+    banner: partners/openbuild.jpg
+paid:
+  - title: 欧雷的破局之路
+    description: 在可言说的范围内尽量用简单的语言详细地记述我是如何突破 35 周岁中年失业困境并实现自己理想生活方式的。
+    website: https://ouraiverse.feishu.cn/wiki/space/7424021980281159684
+    banner: partners/otopia-digital-ranger.jpg
+member:
+  - title: 欧雷和伙伴们
+    description: Love & Peace
+    website: https://ouraiverse.feishu.cn/wiki/space/7424132393008955396
+    banner: banners/teamwork.png
+  - title: 「人生数智化工程」共建计划
+    description: 去中心化的、知识驱动的，与「现实世界」生活相连接相融合的赛博空间。
+    website: https://ouraiverse.feishu.cn/wiki/space/7460551630308573203
+    banner: repos/digital-world.png
+  - title: 「反混沌前端工程」共建计划
+    description: 致力于前端标准化、工业化，让前端开发更加有序且可快速装配，为新型开发方式及协作模式做支撑。
+    website: https://ouraiverse.feishu.cn/wiki/space/7460505157649596435
+    banner: repos/anti-chaos.jpg

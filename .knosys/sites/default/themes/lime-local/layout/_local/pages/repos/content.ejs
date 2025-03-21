@@ -1,7 +1,20 @@
-<div class="Grid Grid--threeCols is-active">
-  <% site.data['local/repos'].forEach(item => { %>
-    <div class="Grid-item">
-      <%- partial('_local/components/card', { title: item.title, description: item.description, banner: url_for(`images/local/${item.banner}`), url: item.website }) %>
-    </div>
-  <% }) %>
-</div>
+<% Object.entries(site.data['local/repositories']).forEach(([type, repos]) => { %>
+  <% let title = '免费公开' %>
+  <% let description = '任何人都可随意查看的' %>
+  <% if (type === 'paid') { %>
+    <% title = '付费获取' %>
+    <% description = '需要付费买断或订阅的' %>
+  <% } else if (type === 'member') { %>
+    <% title = '成员限定' %>
+    <% description = '加入社区才能见到的' %>
+  <% } %>
+  <h2><%= title %></h2>
+  <p><%= description %>：</p>
+  <div class="Grid Grid--threeCols is-active">
+    <% repos.forEach(item => { %>
+      <div class="Grid-item">
+        <%- partial('_local/components/card', { title: item.title, description: item.description, banner: url_for(`images/local/${item.banner}`), url: item.website }) %>
+      </div>
+    <% }) %>
+  </div>
+<% }) %>
