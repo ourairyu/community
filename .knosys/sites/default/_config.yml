@@ -120,8 +120,8 @@ theme_config:
             url: /meetings/
       - text: 生态
         children:
-          - text: OurAI Labs
-            url: https://labs.ourai.ws
+          - text: 专题小组
+            url: /groups/
           - text: 合作伙伴
             url: /partners/
       - text: 关于

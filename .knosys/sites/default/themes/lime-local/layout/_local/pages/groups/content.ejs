@@ -1,0 +1,8 @@
+<p>专注于某个领域课题的共享、共学、共建、共创小组或团队：</p>
+<div class="Grid Grid--threeCols is-active">
+  <% site.data['local/groups'].forEach(item => { %>
+    <div class="Grid-item">
+      <%- partial('_local/components/card', { title: item.name, description: item.description, banner: url_for('images/local/banners/teamwork.png'), url: item.website }) %>
+    </div>
+  <% }) %>
+</div>
