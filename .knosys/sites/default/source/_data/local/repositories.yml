@@ -1,4 +1,8 @@
 free:
+  - title: 欧雷的日报
+    description: 每日一篇所感所思所想。
+    website: https://s.ourai.ws/topics/daily/
+    banner: repos/weekly.jpg
   - title: 欧雷的周报
     description: 每周一篇所感所思所想。
     website: https://s.ourai.ws/topics/weekly/
